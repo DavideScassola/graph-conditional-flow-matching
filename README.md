@@ -1,3 +1,6 @@
+# Graph Conditional Flow Matching for Relational Data Generation
+This is the code of the article "Graph Conditional Flow Matching for Relational Data Generation". 
+
 ## Installation
 We suggest creating a Python virtual environment with Python 3.10. After activating the environment, type:
 ```
@@ -8,7 +11,7 @@ to install all the requirements.
 ## Datasets availability
 All datasets are publicly available.
 Datasets are downloaded and then cached when running training.
-We use datasets made available by the [SyntheRela library](https://github.com/martinjurkovic/syntherela?tab=readme-ov-file), in fact the following scripts are copied from their repository.
+We use datasets made available by the [SyntheRela library](https://github.com/martinjurkovic/syntherela?tab=readme-ov-file), in fact the following scripts are taken from their repository.
 In order to download the data, run the command:
 ```
 python syntherela_benchmark/download_data.py
